@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LankaLens | Research Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#home" class="logo">LankaLens</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#domain">Domain</a></li>
+        <li><a href="#milestones">Milestones</a></li>
+        <li><a href="#documents">Documents</a></li>
+        <li><a href="#presentations">Presentations</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">Research Project Website</p>
+        <h1>LankaLens: AI-Powered Mobile Heritage Exploration Platform</h1>
+        <p>
+          An interactive digital heritage system combining mixed reality, Brahmi inscription recognition,
+          live location tracking, and gamified projection mapping for Sri Lankan cultural heritage education.
+        </p>
+        <div class="hero-actions">
+          <a href="#domain" class="btn primary">Explore Research</a>
+          <a href="#documents" class="btn secondary">View Documents</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3>Project Components</h3>
+        <ul>
+          <li>Mixed Reality Heritage Visualization</li>
+          <li>Brahmi Inscription Recognition</li>
+          <li>Live Location Map & Visit Verification</li>
+          <li>Gamified Projection Mapping Experience</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="domain" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Domain</p>
+        <h2>Research Domain</h2>
+        <p>Key research background, gaps, problems, objectives, methodology, and technologies used.</p>
+      </div>
+
+      <div class="grid cards-grid">
+        <article class="card">
+          <h3>Literature Survey</h3>
+          <p>
+            Digital heritage systems use AR, MR, AI, computer vision, and interactive media to improve cultural
+            heritage learning. Existing systems often focus on single features instead of integrated visitor experiences.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Research Gap</h3>
+          <p>
+            Many heritage applications lack real-time mobile deployment, interpretive transparency, local language support,
+            and engaging educational interaction for Sri Lankan heritage locations.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Research Problem</h3>
+          <p>
+            Visitors often find it difficult to understand damaged monuments, ancient inscriptions, and site layouts without
+            expert guidance or interactive learning support.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Research Objectives</h3>
+          <ul>
+            <li>Develop mobile-based MR heritage visualization.</li>
+            <li>Recognize and translate Brahmi inscriptions.</li>
+            <li>Track heritage exploration progress using maps and QR verification.</li>
+            <li>Improve learning through gamified projection mapping.</li>
+          </ul>
+        </article>
+        <article class="card wide">
+          <h3>Methodology</h3>
+          <p>
+            The system follows a modular development approach. Each component is designed, implemented, tested, and then
+            integrated into a larger heritage exploration platform. User testing is used to evaluate usability, engagement,
+            and learning support.
+          </p>
+        </article>
+        <article class="card wide">
+          <h3>Technologies Used</h3>
+          <div class="tech-list">
+            <span>Android Kotlin</span><span>Unity</span><span>Firebase</span><span>Python</span><span>OpenCV</span>
+            <span>MediaPipe</span><span>TouchDesigner</span><span>Google Maps SDK</span><span>QR Codes</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="milestones" class="section alt-section">
+      <div class="section-heading">
+        <p class="eyebrow">Milestones</p>
+        <h2>Project Milestones</h2>
+        <p>Select a milestone to view assessment details, dates, and allocated marks.</p>
+      </div>
+
+      <div class="milestone-control">
+        <label for="milestoneSelect">Choose milestone:</label>
+        <select id="milestoneSelect">
+          <option value="proposal">Project Proposal</option>
+          <option value="pp1">Progress Presentation 1</option>
+          <option value="pp2">Progress Presentation 2</option>
+          <option value="final">Final Assessment</option>
+          <option value="viva">Viva</option>
+        </select>
+      </div>
+
+      <div class="milestone-card" id="milestoneCard"></div>
+    </section>
+
+    <section id="documents" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Documents</p>
+        <h2>Project Documents</h2>
+        <p>Replace the placeholder links after uploading your documents into the assets/docs folder.</p>
+      </div>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr><th>Document</th><th>Status</th><th>Link</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Project Charter</td><td>Completed</td><td><a href="assets/docs/project-charter.pdf">View</a></td></tr>
+            <tr><td>Proposal Document</td><td>Completed</td><td><a href="assets/docs/proposal-document.pdf">View</a></td></tr>
+            <tr><td>Checklist Documents</td><td>Pending</td><td><a href="#">Coming Soon</a></td></tr>
+            <tr><td>Final Report</td><td>Pending</td><td><a href="#">Coming Soon</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="presentations" class="section alt-section">
+      <div class="section-heading">
+        <p class="eyebrow">Presentations</p>
+        <h2>Presentation Slides</h2>
+        <p>Provide links to past and future presentation slides.</p>
+      </div>
+
+      <div class="grid cards-grid small">
+        <article class="card"><h3>Proposal Presentation</h3><p>Initial research idea and project scope.</p><a href="assets/slides/proposal-presentation.pdf">View Slides</a></article>
+        <article class="card"><h3>Progress Presentation 1</h3><p>Early implementation and evaluation progress.</p><a href="#">Coming Soon</a></article>
+        <article class="card"><h3>Progress Presentation 2</h3><p>Component integration and testing progress.</p><a href="#">Coming Soon</a></article>
+        <article class="card"><h3>Final Presentation</h3><p>Final results, evaluation, and conclusion.</p><a href="#">Coming Soon</a></article>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">About Us</p>
+        <h2>Research Team</h2>
+        <p>Faculty of Computing, Sri Lanka Institute of Information Technology, Malabe, Sri Lanka.</p>
+      </div>
+
+      <div class="grid team-grid">
+        <article class="team-card"><div class="avatar">KG</div><h3>Bandara M.M.K.G.</h3><p>Researcher</p><a href="mailto:it22152732@my.sliit.lk">Email</a></article>
+        <article class="team-card"><div class="avatar">UC</div><h3>Dissanayaka D.U.C.</h3><p>Researcher</p><a href="mailto:it22577788@my.sliit.lk">Email</a></article>
+        <article class="team-card"><div class="avatar">SP</div><h3>Gunawardhana D.D.M.S.P.</h3><p>Researcher</p><a href="mailto:it22198990@my.sliit.lk">Email</a></article>
+        <article class="team-card"><div class="avatar">HS</div><h3>Herath H.M.H.S.</h3><p>Researcher</p><a href="mailto:it22298980@my.sliit.lk">Email</a></article>
+      </div>
+
+      <div class="supervisors">
+        <h3>Supervisors</h3>
+        <p>Mr. Aruna Ishara Gamage | Nushkan Nismi</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-heading">
+        <p class="eyebrow">Contact Us</p>
+        <h2>Contact Information</h2>
+        <p>Use the contact details below for research-related communication.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>General Email</h3>
+          <p><a href="mailto:it22152732@my.sliit.lk">it22152732@my.sliit.lk</a></p>
+          <h3>Institution</h3>
+          <p>Sri Lanka Institute of Information Technology, Malabe, Sri Lanka.</p>
+        </div>
+        <form class="contact-form" onsubmit="return handleContact(event)">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Message" rows="5" required></textarea>
+          <button type="submit" class="btn primary">Send Message</button>
+          <p id="formMessage" class="form-message"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 LankaLens Research Project | SLIIT Faculty of Computing</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
