@@ -12,18 +12,18 @@ html {
 
 body {
     line-height: 1.6;
-    background: #f5f7fa;
-    color: #333;
+    background: #f4faf4;
+    color: #1a1a1a;
 }
 
 /* HEADER + NAVBAR */
 .site-header {
-    background: #0d1b2a;
+    background: #050805;
     padding: 12px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
 }
 
 .navbar {
@@ -41,16 +41,16 @@ body {
     align-items: center;
     gap: 12px;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-size: 1.25rem;
     font-weight: 700;
     letter-spacing: 0.3px;
 }
 
 .logo img {
-    height: 44px;
+    height: 46px;
     width: auto;
-    max-width: 150px;
+    max-width: 155px;
     object-fit: contain;
     display: block;
 }
@@ -65,14 +65,14 @@ body {
 
 .nav-links li a {
     text-decoration: none;
-    color: #e0e1dd;
+    color: #eaf5ea;
     font-size: 0.95rem;
     font-weight: 500;
     transition: 0.3s ease;
 }
 
 .nav-links li a:hover {
-    color: #00b4d8;
+    color: #78c360;
 }
 
 /* MOBILE MENU */
@@ -81,7 +81,7 @@ body {
     font-size: 1.7rem;
     background: none;
     border: none;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -93,8 +93,8 @@ body {
     align-items: center;
     gap: 40px;
     padding: 80px 10%;
-    background: linear-gradient(135deg, #0d1b2a, #1b263b);
-    color: white;
+    background: linear-gradient(135deg, #050805, #1f5c3b);
+    color: #ffffff;
 }
 
 .hero-content {
@@ -109,7 +109,7 @@ body {
 
 .hero p {
     margin-bottom: 22px;
-    color: #e5e7eb;
+    color: #eaf5ea;
 }
 
 .hero-actions {
@@ -119,17 +119,18 @@ body {
 }
 
 .hero-card {
-    background: white;
-    color: #333;
+    background: #ffffff;
+    color: #1a1a1a;
     padding: 24px;
     border-radius: 16px;
     width: 340px;
-    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.22);
+    border-top: 5px solid #78c360;
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.25);
 }
 
 .hero-card h3 {
     margin-bottom: 12px;
-    color: #0d1b2a;
+    color: #1f5c3b;
 }
 
 .hero-card ul {
@@ -152,24 +153,24 @@ body {
 }
 
 .primary {
-    background: #00b4d8;
-    color: white;
+    background: #347443;
+    color: #ffffff;
 }
 
 .primary:hover {
-    background: #0096c7;
+    background: #1f5c3b;
     transform: translateY(-2px);
 }
 
 .secondary {
     background: transparent;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid #78c360;
+    color: #78c360;
 }
 
 .secondary:hover {
-    background: white;
-    color: #0d1b2a;
+    background: #78c360;
+    color: #050805;
 }
 
 /* SECTIONS */
@@ -178,7 +179,7 @@ body {
 }
 
 .alt-section {
-    background: #eef3f7;
+    background: #eef8ef;
 }
 
 .section-heading {
@@ -189,11 +190,11 @@ body {
 .section-heading h2 {
     font-size: 2rem;
     margin: 6px 0;
-    color: #0d1b2a;
+    color: #1f5c3b;
 }
 
 .eyebrow {
-    color: #00b4d8;
+    color: #347443;
     font-size: 0.85rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -211,10 +212,11 @@ body {
 }
 
 .card {
-    background: white;
+    background: #ffffff;
     padding: 24px;
     border-radius: 14px;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+    border-top: 4px solid #78c360;
+    box-shadow: 0 4px 14px rgba(31, 92, 59, 0.1);
     transition: 0.3s ease;
 }
 
@@ -222,11 +224,11 @@ body {
 .team-card:hover,
 .contact-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 22px rgba(31, 92, 59, 0.16);
 }
 
 .card h3 {
-    color: #0d1b2a;
+    color: #1f5c3b;
     margin-bottom: 10px;
 }
 
@@ -238,7 +240,7 @@ body {
 .team-card a,
 .contact-card a,
 table a {
-    color: #0077b6;
+    color: #347443;
     font-weight: 600;
     text-decoration: none;
 }
@@ -247,6 +249,7 @@ table a {
 .team-card a:hover,
 .contact-card a:hover,
 table a:hover {
+    color: #78c360;
     text-decoration: underline;
 }
 
@@ -262,8 +265,8 @@ table a:hover {
 }
 
 .tech-list span {
-    background: #e0f7ff;
-    color: #0d1b2a;
+    background: #eef8ef;
+    color: #1f5c3b;
     padding: 7px 12px;
     border-radius: 999px;
     font-size: 0.9rem;
@@ -278,27 +281,31 @@ table a:hover {
 .milestone-control label {
     font-weight: 600;
     margin-right: 10px;
+    color: #1f5c3b;
 }
 
 .milestone-control select {
     padding: 10px 14px;
     border-radius: 8px;
-    border: 1px solid #ccd6dd;
+    border: 1px solid #b7d8bd;
+    background: #ffffff;
+    color: #1a1a1a;
 }
 
 .milestone-card {
-    background: white;
+    background: #ffffff;
     padding: 24px;
     border-radius: 14px;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+    border-left: 5px solid #347443;
+    box-shadow: 0 4px 14px rgba(31, 92, 59, 0.1);
 }
 
 /* TABLE */
 .table-wrapper {
     overflow-x: auto;
-    background: white;
+    background: #ffffff;
     border-radius: 14px;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 4px 14px rgba(31, 92, 59, 0.1);
 }
 
 table {
@@ -310,13 +317,13 @@ table {
 th,
 td {
     padding: 14px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #d8eadb;
     text-align: left;
 }
 
 th {
-    background: #0d1b2a;
-    color: white;
+    background: #050805;
+    color: #ffffff;
 }
 
 /* TEAM */
@@ -325,19 +332,20 @@ th {
 }
 
 .team-card {
-    background: white;
+    background: #ffffff;
     text-align: center;
     padding: 26px 18px;
     border-radius: 14px;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+    border-top: 4px solid #347443;
+    box-shadow: 0 4px 14px rgba(31, 92, 59, 0.1);
     transition: 0.3s ease;
 }
 
 .avatar {
     width: 70px;
     height: 70px;
-    background: #00b4d8;
-    color: white;
+    background: #347443;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -349,9 +357,10 @@ th {
 
 .supervisors {
     margin-top: 28px;
-    background: #eef3f7;
+    background: #eef8ef;
     padding: 22px;
     border-radius: 14px;
+    border-left: 5px solid #78c360;
 }
 
 /* CONTACT */
@@ -363,10 +372,10 @@ th {
 
 .contact-card,
 .contact-form {
-    background: white;
+    background: #ffffff;
     padding: 24px;
     border-radius: 14px;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 4px 14px rgba(31, 92, 59, 0.1);
 }
 
 .contact-form input,
@@ -374,14 +383,14 @@ th {
     width: 100%;
     padding: 12px;
     margin-bottom: 12px;
-    border: 1px solid #ccd6dd;
+    border: 1px solid #b7d8bd;
     border-radius: 8px;
     outline: none;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: #00b4d8;
+    border-color: #78c360;
 }
 
 .contact-form button {
@@ -398,23 +407,23 @@ th {
 footer {
     text-align: center;
     padding: 22px;
-    background: #0d1b2a;
-    color: white;
+    background: #050805;
+    color: #ffffff;
 }
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
     .nav-links {
         position: absolute;
-        top: 68px;
+        top: 70px;
         right: 5%;
-        background: #0d1b2a;
+        background: #050805;
         flex-direction: column;
         width: 230px;
         display: none;
         padding: 18px;
         border-radius: 0 0 12px 12px;
-        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.22);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.28);
     }
 
     .nav-links.active {
@@ -468,8 +477,8 @@ footer {
     }
 
     .logo img {
-        height: 36px;
-        max-width: 120px;
+        height: 38px;
+        max-width: 125px;
     }
 
     .hero h1 {
