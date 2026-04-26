@@ -3,6 +3,7 @@ const navLinks = document.getElementById('navLinks');
 
 menuToggle.addEventListener('click', () => {
   navLinks.classList.toggle('show');
+  menuToggle.setAttribute('aria-expanded', navLinks.classList.contains('show'));
 });
 
 const milestones = {
@@ -59,7 +60,17 @@ renderMilestone('proposal');
 
 function handleContact(event) {
   event.preventDefault();
-  document.getElementById('formMessage').textContent = 'Thank you. This is a sample contact form. Connect a form service before publishing.';
+  const form = event.target;
+  const name = form.elements.name.value.trim();
+  const email = form.elements.email.value.trim();
+  const message = form.elements.message.value.trim();
+  const subject = encodeURIComponent('LankaLens Research Project Inquiry');
+  const body = encodeURIComponent(
+    `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+  );
+
+  window.location.href = `mailto:it22298980@my.sliit.lk?subject=${subject}&body=${body}`;
+  document.getElementById('formMessage').textContent = 'Opening your email application with a prepared draft.';
   event.target.reset();
   return false;
 }
