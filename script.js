@@ -9,32 +9,32 @@ menuToggle.addEventListener('click', () => {
 const milestones = {
   proposal: {
     title: 'Project Proposal',
-    date: 'Add your proposal date',
-    marks: 'Add allocated marks',
+    date: '19/09/2025',
+    marks: 'Good',
     details: 'Introduces the research problem, objectives, scope, methodology, and expected outcomes.'
   },
   pp1: {
     title: 'Progress Presentation 1',
-    date: 'Add PP1 date',
-    marks: 'Add allocated marks',
+    date: '15/12/2025',
+    marks: 'Good',
     details: 'Presents early development progress, initial implementation, challenges, and next steps.'
   },
   pp2: {
     title: 'Progress Presentation 2',
-    date: 'Add PP2 date',
-    marks: 'Add allocated marks',
+    date: '11/03/2025',
+    marks: 'Good',
     details: 'Shows advanced implementation, integration progress, testing results, and improvements.'
   },
   final: {
     title: 'Final Assessment',
-    date: 'Add final assessment date',
-    marks: 'Add allocated marks',
+    date: '26/04/2026',
+    marks: 'Pending',
     details: 'Presents completed system, final evaluation, documentation, and research contribution.'
   },
   viva: {
     title: 'Viva',
-    date: 'Add viva date',
-    marks: 'Add allocated marks',
+    date: '27/04/2026',
+    marks: 'Pending',
     details: 'Final oral examination and demonstration of the research project.'
   }
 };
